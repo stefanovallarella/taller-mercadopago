@@ -40,9 +40,16 @@
 						</ul>
 
 						<div class="mercadopago-button-container">
-							<button class="mercadopago-button">
-								Pagar la compra
-							</button>
+
+							<form action="/comprar" method="post">
+								<!-- si tuviera base de datos tendria que usar un input hidden para conseguir el id del producto a enviar -->
+								<!-- <input type="hidden" name="product_id"> -->
+								<button class="mercadopago-button">
+									Pagar la compra
+								</button>
+							
+							</form>
+
 						</div>
 					</article>
 				</div>
