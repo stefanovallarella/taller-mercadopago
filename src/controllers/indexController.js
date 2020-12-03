@@ -48,7 +48,7 @@ module.exports = {
             quantity: 1
         }
 
-        const host = 'http://localhost:3000/';
+        const host = 'https://taller-mpago-dh.herokuapp.com/';
         const url =  host + 'callback?status=';
 
         let preference = {
