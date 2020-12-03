@@ -13,7 +13,7 @@ router.get('/detail', indexController.detail);
 router.get('/callback', indexController.callback);
 
 
-router.get('/notifications', indexController.notifications);
+router.post('/notifications', indexController.notifications);
 
 
 
