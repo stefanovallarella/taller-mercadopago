@@ -34,11 +34,9 @@ module.exports = {
     notifications: (req,res) => {
         
         console.log('webhook', req.body);
-        res.send(req.body)
+        
 
-        /* 
-
-        res.status(200).end('ok'); */
+        res.status(200).end('ok');
 
     },
     comprar: (req,res) => {
