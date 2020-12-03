@@ -33,10 +33,8 @@ module.exports = {
     },
     notifications: (req,res) => {
         
-        console.log('webhook', req.body);
-        
-
-        res.status(200).end('ok');
+        console.log('Webhooks', req.body);
+        res.send(req.body)
 
     },
     comprar: (req,res) => {
